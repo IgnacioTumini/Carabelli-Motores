@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header/Header.tsx";
 import Home from "./Pages/Home/Home";
-import "bootstrap/dist/css/bootstrap.min.css";
+import NotFoundScreen from "./Pages/NotFound/NotFoundScreen.tsx";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+
+        {/* dejar en la ultima linea */}
+        <Route path="*" element={<NotFoundScreen />} />
       </Routes>
     </>
   );
