@@ -4,20 +4,20 @@ import "./Carousel.css";
 
 function CarouselComponent() {
   return (
-    <Carousel>
-      <Carousel.Item interval={1000}>
-        <img className="carousel-image" src={img1} alt="Imagen 1" />
-        <Carousel.Caption>
-          <button>Ver mas</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <img className="carousel-image" src={img1} alt="" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="carousel-image" src={img1} alt="" />
-      </Carousel.Item>
-    </Carousel>
+    <div className="pt-3">
+      <Carousel>
+        <Carousel.Item interval={3000}>
+          <img className="carousel-image" src={img1} alt="Imagen 1" />
+          <Carousel.Caption>{/* boton de vermas */}</Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={3000}>
+          <img className="carousel-image" src={img1} alt="" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="carousel-image" src={img1} alt="" />
+        </Carousel.Item>
+      </Carousel>
+    </div>
   );
 }
 
