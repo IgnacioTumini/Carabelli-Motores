@@ -6,11 +6,11 @@ function Header() {
   return (
     <div>
       <Navbar expand="lg" className="navbar ">
-        <Container className="m-0 w-100">
+        <Container className=" w-100">
           <img src={logo} alt="Logo de carabelli motores" className="logo" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto ">
               <Nav.Link href="#home" className="text-white">
                 Inicio
               </Nav.Link>
