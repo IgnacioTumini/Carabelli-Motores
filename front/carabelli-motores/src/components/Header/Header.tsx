@@ -15,10 +15,10 @@ function Header() {
                 Inicio
               </Nav.Link>
               <Nav.Link href="#productos" className="text-white">
-                Productos
+                Servicios
               </Nav.Link>
               <NavDropdown
-                title="Servicios"
+                title="Productos"
                 id="basic-nav-dropdown"
                 className="letras_nav"
               >

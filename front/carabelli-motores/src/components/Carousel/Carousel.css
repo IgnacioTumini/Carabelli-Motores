@@ -1,7 +1,6 @@
 .carousel-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 .carousel-control-next,
 .carousel-control-prev {
@@ -20,4 +19,14 @@
   border: 0;
   opacity: 0.5;
   transition: opacity 0.15s ease;
+}
+.carousel-item {
+  height: 90vh;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    margin-top: 20px;
+    height: 100%;
+  }
 }
