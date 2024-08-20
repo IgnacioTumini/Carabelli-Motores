@@ -4,7 +4,7 @@ function SecondSection() {
   return (
     <div className="section-container">
       <div className="middle">
-        <h1 className="title w-75 text-white p-1">
+        <h1 className="title title-motors w-75 text-white p-1">
           CONTAMOS CON UN AMPLIO STOCK EN{" "}
           <span className="text-black">REPUESTOS GENIUNOS</span>
         </h1>

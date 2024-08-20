@@ -1,3 +1,4 @@
+import Brands from "../../components/Brands/Brands";
 import CarouselComponent from "../../components/Carousel/Carousel";
 import OilComponent from "../../components/Oil/Oil";
 import SecondSection from "../../components/SecondSection/SecondSection";
@@ -9,6 +10,7 @@ function Home() {
       <CarouselComponent />
       <OilComponent />
       <SecondSection />
+      <Brands />
     </div>
   );
 }
