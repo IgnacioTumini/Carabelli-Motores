@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "./Header.css";
-import logo from "../../../public/WEB CARABELLI.png";
+import logo from "../../../public/carabelli-logo.png";
 
 function Header() {
   return (
