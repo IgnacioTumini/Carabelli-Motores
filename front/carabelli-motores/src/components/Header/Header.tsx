@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
       <Navbar expand="lg" className="navbar ">
-        <Container className=" w-100">
+        <Container className=" w-100 ">
           <img src={logo} alt="Logo de carabelli motores" className="logo" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
