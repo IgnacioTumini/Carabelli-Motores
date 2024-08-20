@@ -21,7 +21,8 @@
   transition: opacity 0.15s ease;
 }
 .carousel-item {
-  height: 90vh;
+  width: 100%;
+  height: 95vh;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../../assets/Tipografia-Helvetica-Neue/HelveticaNeueLTStd-HvCn.otf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.oil-container {
+  display: flex;
+  height: 85vh;
+  align-items: center;
+}
+.img-oil {
+  width: 75%;
+  height: 75%;
+}
+.middle {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.linea-roja {
+  border: var(--var-color-rojo) solid 3px;
+  opacity: 100;
+}
+.check-container {
+  display: flex;
+  align-items: center;
+}
+
+.check-icon {
+  color: #000;
+  font-size: 22px;
+  margin-right: 10px;
+  color: var(--var-color-rojo);
+}
+
+.check-text {
+  font-size: 16px;
+}
+.title {
+  font-family: "Helvetica Neue";
+  font-size: 50px;
+}
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .oil-container {
+    flex-direction: column-reverse;
+  }
+}
