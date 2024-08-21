@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header/Header.tsx";
 import Home from "./Pages/Home/Home";
 import NotFoundScreen from "./Pages/NotFound/NotFoundScreen.tsx";
+import Footer from "./components/Footer/Footer.tsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         {/* dejar en la ultima linea */}
         <Route path="*" element={<NotFoundScreen />} />
       </Routes>
+      <Footer />
     </>
   );
 }

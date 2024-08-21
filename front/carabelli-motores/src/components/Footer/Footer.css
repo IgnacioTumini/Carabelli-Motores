@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: black;
+  width: 100%;
+  min-height: 50vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-footer {
+  width: 15%;
+}
+.hr-footer {
+  border: var(--var-color-rojo) solid 1px;
+  opacity: 100%;
+  width: 85%;
+  margin: 0;
+}
+.container-logo-hr {
+  padding-left: 8.5%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 1%;
+}
+.container-description-footer {
+  color: white;
+}
+.container-description {
+  padding-top: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+.container-description-seguinos {
+  color: white;
+  width: 20%;
+}
+.icon-redes {
+  color: var(--var-color-rojo);
+  font-size: 30px;
+  margin-right: 5px;
+}
+.icon-redes:hover {
+  color: var(--var-color-bordo);
+}
+.hr-footer-bottom {
+  border: var(--var-color-rojo) solid 1px;
+  opacity: 100%;
+  width: 83%;
+  margin: 0;
+}
+.derechos {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.description-divs {
+  display: flex;
+  gap: 5px;
+}
+.letras-blod {
+  font-weight: bold;
+}
