@@ -38,7 +38,7 @@ function Header() {
               <Nav.Link href="#link" className="text-white">
                 Nosostros
               </Nav.Link>
-              <Nav.Link href="#link" className="text-white">
+              <Nav.Link href="/contact" className="text-white">
                 Contacto
               </Nav.Link>
             </Nav>

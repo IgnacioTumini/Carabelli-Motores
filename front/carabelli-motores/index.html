@@ -2,10 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/logo.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./public/logo-light.png"
+      id="favicon"
+    />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carabelli Motores S.A</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const darkModeMediaQuery = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        );
+        const favicon = document.getElementById("favicon");
+
+        const updateFavicon = (isDarkMode) => {
+          favicon.href = isDarkMode
+            ? "./public/logo.png"
+            : "./public/logo-negro.png";
+        };
+
+        updateFavicon(darkModeMediaQuery.matches);
+
+        darkModeMediaQuery.addEventListener("change", (e) => {
+          updateFavicon(e.matches);
+        });
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>
