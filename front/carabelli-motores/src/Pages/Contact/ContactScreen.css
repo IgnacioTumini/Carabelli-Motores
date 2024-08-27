@@ -9,15 +9,20 @@
   width: 100%;
 }
 .contact-info {
-  width: 40%;
+  width: 50%;
   margin: auto;
+  padding-left: 60px;
 }
 .info {
   display: flex;
+  margin-bottom: 20px;
 }
 .icon {
-  font-size: 50px;
+  display: flex;
+  font-size: 60px;
   color: var(--var-color-rojo);
+  margin-right: 30px;
+  align-self: center;
 }
 .title-contact {
   text-decoration: none;
@@ -35,5 +40,5 @@
   left: 43%;
 }
 .contact-form {
-  width: 40%;
+  width: 50%;
 }

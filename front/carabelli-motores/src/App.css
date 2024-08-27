@@ -14,6 +14,8 @@
   --var-color-bordo: #950000;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /*#root {
   max-width: 1280px;
   margin: 0 auto;

@@ -9,9 +9,13 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 
 const ContactScreen: React.FC = () => {
   return (
-    <div className="contact-container">
-      <img src={imgcontact} alt="imagen contacto" className="img-contact" />
-      <h1 className="title text-center title-contact">Contacto</h1>
+    <div className="contact-container mb-5">
+      <img
+        src={imgcontact}
+        alt="imagen contacto"
+        className="img-contact mb-4"
+      />
+      <h1 className="title text-center title-contact mb-4">CONTACTO</h1>
       <p className="subtitle  text-center w-50 m-auto mb-5">
         Estamos para ayudarte, completa el formulario o elige el metodo de
         contacto que prefieras, y te respondemos lo antes posible.
@@ -21,23 +25,23 @@ const ContactScreen: React.FC = () => {
           <div className="info">
             <ImLocation className="icon" />
             <div>
-              <h2>UBICACIÓN</h2>
+              <h2 className="mb-0 fs-5">UBICACIÓN</h2>
               <p>Rawson 758, San Andres de Giles Buenos Aires, Argentina</p>
             </div>
           </div>
           <div className="info">
             <FaPhoneAlt className="icon" />
             <div>
-              <h2>TELEFONO</h2>
-              <p>02325 - 440704</p>
+              <h2 className="mb-0 fs-5">TELEFONO</h2>
+              <p className="mb-0">02325 - 440704</p>
               <p>+54 9 2325 47-6404</p>
             </div>
           </div>
           <div className="info">
             <IoIosMail className="icon" />
             <div>
-              <h2>EMAIL</h2>
-              <p>garantias@carabellimotores.com</p>
+              <h2 className="mb-0 fs-5">EMAIL</h2>
+              <p className="mb-0">garantias@carabellimotores.com</p>
               <p>administración2@carabellimotores.-com.ar</p>
             </div>
           </div>

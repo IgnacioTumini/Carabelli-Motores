@@ -34,28 +34,37 @@ const ContactForm: React.FC = () => {
       >
         {({ isSubmitting }) => (
           <Form className="contact-form">
-            <div className="form-field">
-              <label htmlFor="nombre">Nombre</label>
-              <Field type="text" name="nombre" className="input-field" />
-              <ErrorMessage
-                name="nombre"
-                component="div"
-                className="error-text"
-              />
+            <div className="form-field d-flex gap-3">
+              <div>
+                <label className="label-form" htmlFor="nombre">
+                  Nombre
+                </label>
+                <Field type="text" name="nombre" className="input-field" />
+                <ErrorMessage
+                  name="nombre"
+                  component="div"
+                  className="error-text"
+                />
+              </div>
+              <div>
+                <label className="label-form" htmlFor="email">
+                  Email
+                </label>
+                <Field type="email" name="email" className="input-field" />
+                <ErrorMessage
+                  name="email"
+                  component="div"
+                  className="error-text"
+                />
+              </div>
             </div>
 
-            <div className="form-field">
-              <label htmlFor="email">Email</label>
-              <Field type="email" name="email" className="input-field" />
-              <ErrorMessage
-                name="email"
-                component="div"
-                className="error-text"
-              />
-            </div>
+            <div className="form-field"></div>
 
             <div className="form-field">
-              <label htmlFor="asunto">Asunto</label>
+              <label className="label-form" htmlFor="asunto">
+                Asunto
+              </label>
               <Field type="text" name="asunto" className="input-field" />
               <ErrorMessage
                 name="asunto"
@@ -65,7 +74,9 @@ const ContactForm: React.FC = () => {
             </div>
 
             <div className="form-field">
-              <label htmlFor="mensaje">Mensaje</label>
+              <label className="label-form" htmlFor="mensaje">
+                Mensaje
+              </label>
               <Field
                 as="textarea"
                 name="mensaje"
@@ -77,14 +88,15 @@ const ContactForm: React.FC = () => {
                 className="error-text"
               />
             </div>
-
-            <button
-              type="submit"
-              className="submit-button"
-              disabled={isSubmitting}
-            >
-              Enviar Mensaje
-            </button>
+            <div className="d-flex justify-content-center">
+              <button
+                type="submit"
+                className="submit-button label-form"
+                disabled={isSubmitting}
+              >
+                Enviar Mensaje
+              </button>
+            </div>
           </Form>
         )}
       </Formik>

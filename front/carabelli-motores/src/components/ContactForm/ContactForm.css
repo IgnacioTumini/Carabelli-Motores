@@ -24,7 +24,7 @@
 }
 
 .contact-form .textarea-field {
-  height: 100px;
+  height: 350px;
   resize: vertical;
 }
 
@@ -47,4 +47,8 @@
 
 .contact-form .submit-button:hover {
   background-color: #c0392b;
+}
+.label-form {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300 !important;
 }
